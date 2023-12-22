@@ -1,0 +1,13 @@
+#+TITLE: Top Flutter
+#+author: Md. Shafiqur Rahman
+#+options: h:1 num:nil toc:nil
+
+* A Simple Application That Shows The Most Stared GitHub Repositories.
+* How to configure and run this project?
+  1. Step One: First of all click "Edit Configurations"
+     [[./repo_data/flavors.png][Edit Configuration]]
+  2. Step Two: Click plus button and choose Flutter
+     [[./repo_data/flavors_2.png][Chosse Flutter]]
+  3. Step Three: Give a name and choose appropriate file
+  4. Step Four: Give flavor a name
+  5. Create another configuration for prod following two steps above
