@@ -3,11 +3,31 @@
 #+options: h:1 num:nil toc:nil
 
 * A Simple Application That Shows The Most Stared GitHub Repositories.
-* How to configure and run this project?
-  1. Step One: First of all click "Edit Configurations"
-     [[./repo_data/flavors.png][Edit Configuration]]
-  2. Step Two: Click plus button and choose Flutter
-     [[./repo_data/flavors_2.png][Chosse Flutter]]
-  3. Step Three: Give a name and choose appropriate file
-  4. Step Four: Give flavor a name
-  5. Create another configuration for prod following two steps above
+* How to configure and run this project in Android?
+  1) First click "Edit Configurations"
+     [[./repo_data/flavors.png]]
+  2) Click plus button and choose Flutter
+     [[./repo_data/flavors_2.png]]
+  3) Give a name and choose appropriate file
+     [[./repo_data/flavors_3.png]]
+  4) Give flavor a name
+     [[./repo_data/flavors_4.png]]
+  5) Create another configuration for prod following steps above
+* How to configure and run this project in iOS?
+  1) First click "Manage Schemes"
+     [[./repo_data/flavors_ios.png]]
+  2) Add a new "dev" Scheme and rename main one to "prod" Scheme
+     [[./repo_data/flavors_ios_2.png]]
+  3) Add as more flavors as need
+     [[./repo_data/flavors_ios_3.png]]
+  4) Now in project Runner add Configuration files
+     [[./repo_data/flavors_ios_4.png]]
+  5) Again go to "Manage Scheme" and select appropriate Configuration
+     [[./repo_data/flavors_ios_5.png]]
+     [[./repo_data/flavors_ios_6.png]]
+  6) Add Product Bundle Identifier from Targets Runner
+     [[./repo_data/flavors_ios_7.png]]
+  7) Add Product Name for different Scheme
+     [[./repo_data/flavors_ios_8.png]]
+  8) Rename Display name in Info section
+     [[./repo_data/flavors_ios_9.png]]
