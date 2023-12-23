@@ -21,6 +21,7 @@ class _TopFlutterAppState extends State<TopFlutterApp> {
       title: _envConfig.appName,
       initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
+      debugShowCheckedModeBanner: _envConfig.shouldCollectCrashLog,
     );
   }
 }

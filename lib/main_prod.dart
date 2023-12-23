@@ -9,11 +9,11 @@ void main() {
   EnvConfig prodConfig = EnvConfig(
     appName: "Top Flutter",
     baseUrl: "https://api.github.com",
-    shouldCollectCrashLog: true,
+    shouldCollectCrashLog: false,
   );
 
   BuildConfig.instantiate(
-    envType: Environment.PRODUCTION,
+    envType: Environment.production,
     envConfig: prodConfig,
   );
   runApp(const TopFlutterApp());

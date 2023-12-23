@@ -3,6 +3,7 @@
 #+options: h:1 num:nil toc:nil
 
 * A Simple Application That Shows The Most Stared GitHub Repositories.
+* Technologies used.
 * How to configure and run this project in Android?
   1) First click "Edit Configurations"
      [[./repo_data/flavors.png]]

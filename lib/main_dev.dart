@@ -13,7 +13,7 @@ void main() {
   );
 
   BuildConfig.instantiate(
-    envType: Environment.DEVELOPMENT,
+    envType: Environment.development,
     envConfig: devConfig,
   );
 
